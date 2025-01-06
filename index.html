@@ -1,25 +1,25 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AMARNATH KAKATIKAR - Portfolio</title>
+    <title>Amarnath Kakatikar - Portfolio</title>
     <style>
         /* General Styles */
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f9;
+            background-color: #f9f9f9;
             color: #333;
+            line-height: 1.6;
         }
 
         header {
             background-color: #4CAF50;
             color: white;
-            padding: 20px 10px;
             text-align: center;
+            padding: 20px 10px;
             position: sticky;
             top: 0;
             z-index: 1000;
@@ -32,7 +32,8 @@
 
         nav {
             background-color: #333;
-            text-align: center;
+            display: flex;
+            justify-content: center;
             padding: 10px 0;
             position: sticky;
             top: 0;
@@ -44,36 +45,35 @@
             text-decoration: none;
             margin: 0 15px;
             padding: 8px 15px;
-            display: inline-block;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
         }
 
         nav a:hover {
             background-color: #4CAF50;
-            border-radius: 5px;
         }
 
         section {
             padding: 50px 20px;
-            width: 90%;
-            margin: auto;
-            margin-bottom: 30px;
+            margin: 20px auto;
             background: white;
             border-radius: 8px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 90%;
+            max-width: 900px;
         }
 
         section h2 {
             color: #4CAF50;
-            font-size: 1.8em;
+            font-size: 2em;
             margin-bottom: 15px;
         }
 
         footer {
             text-align: center;
-            padding: 15px 0;
+            padding: 20px 10px;
             background-color: #4CAF50;
             color: white;
-            position: relative;
         }
 
         ul {
@@ -89,21 +89,35 @@
             color: #4CAF50;
             text-decoration: none;
             font-weight: bold;
+            transition: color 0.3s ease;
         }
 
         a:hover {
             text-decoration: underline;
+            color: #2c7a35;
         }
 
         .icon {
             margin-right: 10px;
+        }
+
+        @media (max-width: 768px) {
+            nav a {
+                margin: 0 10px;
+                padding: 6px 10px;
+                font-size: 0.9em;
+            }
+
+            header h1 {
+                font-size: 2em;
+            }
         }
     </style>
 </head>
 <body>
 
 <header>
-    <h1>AMARNATH KAKATIKAR </h1>
+    <h1>Amarnath Kakatikar</h1>
 </header>
 
 <nav>
@@ -116,24 +130,25 @@
 <section id="about">
     <h2>About Me</h2>
     <p>
-        Hi! I am a student pursuing a BTech in Computer Science (AI) from KLETECH University, Belagavi. 
-        My SRN is <strong>02FE24BCI403</strong>. This portfolio showcases my 3rd semester project under the guidance of 
-        <strong>Priyanka Gavde Ma'am</strong>, the course instructor for Design and Analysis of Algorithms.
+        Hello! I am Amarnath Kakatikar, a passionate student pursuing a B.Tech in Computer Science (AI) from KLE Tech University, Belagavi. 
+        My SRN is <strong>02FE24BCI403</strong>. This portfolio highlights my 3rd-semester project under the guidance of 
+        <strong>Priyanka Gavde Ma'am</strong>, who taught the Design and Analysis of Algorithms course.
     </p>
 </section>
 
 <section id="projects">
-    <h2>Project</h2>
+    <h2>Projects</h2>
     <ul>
-        <li><strong>Smart City Waste Management System:</strong>Build smart city waste management system that utilizes algorithms and data structures. The project offers waste collection scheduling .</li>
-        <li><strong>Portfolio Website:</strong> Developed a responsive personal portfolio using HTML, CSS</li>
+        <li><strong>Smart City Waste Management System:</strong> Built a smart city waste management solution using advanced algorithms and data structures, enabling efficient waste collection scheduling.</li>
+        <li><strong>Portfolio Website:</strong> Designed and developed a fully responsive personal portfolio using HTML and CSS.</li>
     </ul>
 </section>
 
 <section id="skills">
-    <h2>Skill</h2>
+    <h2>Skills</h2>
     <ul>
-        <li>Specialties: Data Structures and Algorithms, Web Development</li>
+        <li><strong>Specialties:</strong> Data Structures and Algorithms, Web Development</li>
+        <li><strong>Technologies:</strong> HTML, CSS </li>
     </ul>
 </section>
 
@@ -142,7 +157,7 @@
     <ul>
         <li>Email: <a href="mailto:amarkakatikar@gmail.com">amarkakatikar@gmail.com</a></li>
         <li>LinkedIn: <a href="https://www.linkedin.com/in/amar-kakatikar-bb2191345/" target="_blank">LinkedIn</a></li>
-        <li>GitHub: <a href="https://amarak45.github.io/Smart_city_waste_management_system.github.io/">GitHub</a></li>
+        <li>GitHub: <a href="https://amarak45.github.io/Smart_city_waste_management_system.github.io/" target="_blank">GitHub</a></li>
     </ul>
 </section>
 
